@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="shortcut icon" href="./imgs/LOGO 2.png" type="image/x-icon">
     <title>Design Portfolio</title>
 </head>
 <body>
-    
+    <nav class="navbar">
+        <div class="name">LIDIA PERZYNA</div>
+        <div class="nav-links">
+            <a href="./index.html" class="nav-link">HOME</a>
+            <a href="./about.html" class="nav-link">ABOUT ME</a>
+            <a href="#" class="nav-link current-page" style="text-decoration: underline;">DESIGN PORTFOLIO</a>
+            <a href="./contact.html" class="nav-link">CONTACT ME</a>
+        </div>
+    </nav>
+    <main class="aboutMe">
+        <div class="aboutMe-content">
+            <h2>PORTFOLIO</h2>
+            <p>Fourth year <b>Computer Science</b> and <b>Design</b> student at the University of San Francisco. I have
+                a strong
+                passion for tech and design and always try to find anyway to combine them in my day-to-day work. I
+                discovered my love of art very early in my life, taking inspiration from the world and people around me,
+                and direction of my life. I discovered my passion for tech and computer science in high school through
+                an AP Computer Science class. I was taken with the ability to create art, applications, websites, etc.
+                through code and knew this was a passion I wanted to pursue.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/lidia-perzyna-157a47224/" class="fa-brands fa-linkedin"></a></li>
+            <li><a href="https://github.com/laperzyna" class="fa-brands fa-github"></a></li>
+            <li><a href="mailto: laperzyna@gmail.com" class="fa-sharp fa-solid fa-envelope"></a></li>
+        </ul>
+    </footer>
 </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var elementsToAnimate = document.querySelectorAll(".aboutMe-content h2, .aboutMe-content p, .aboutMe img");
+
+        elementsToAnimate.forEach(function (element) {
+            element.style.opacity = "1";
+            element.style.transform = "translateY(0)";
+        });
+    });
+</script>
+<script src="https://kit.fontawesome.com/c575892f5a.js" crossorigin="anonymous"></script>
+
 </html>

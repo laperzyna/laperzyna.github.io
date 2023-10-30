@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perzy Designs</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="shortcut icon" href="./imgs/LOGO 2.png" type="image/x-icon">
 </head>
+
 <body>
-    <nav>
-        <h2> Lidia Perzyna</h2>
-        <a href="#">Home</a>
-        <a href="./about.html">About Me</a>
-        <a href="./portfolio.html">Design Portfolio</a>
-        <a href="./contact.html">Contact Me</a>
+    <nav class="navbar">
+        <div class="name">LIDIA PERZYNA</div>
+        <div class="nav-links">
+            <a href="#" class="nav-link current-page" style="text-decoration: underline;">HOME</a>
+            <a href="./about.html" class="nav-link">ABOUT ME</a>
+            <a href="./portfolio.html" class="nav-link">DESIGN PORTFOLIO</a>
+            <a href="./contact.html" class="nav-link">CONTACT ME</a>
+        </div>
     </nav>
+    <main class="splash">
+        <div class="splash-content">
+            <h1>LIDIA PERZYNA</h1>
+            <p>A <b> Software Engineer </b> and <b> Designer </b> based in San Francisco and Los Angeles, California.
+            </p>
+        </div>
+        <img src="./imgs/LOGO 2.png" />
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/lidia-perzyna-157a47224/" class="fa-brands fa-linkedin"></a></li>
+            <li><a href="https://github.com/laperzyna" class="fa-brands fa-github"></a></li>
+            <li><a href="mailto: laperzyna@gmail.com" class="fa-sharp fa-solid fa-envelope"></a></li>
+        </ul>
+    </footer>
 </body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var elementsToAnimate = document.querySelectorAll(".splash-content h1, .splash-content p, .splash img");
+
+        elementsToAnimate.forEach(function (element) {
+            element.style.opacity = "1";
+            element.style.transform = "translateY(0)";
+        });
+    });
+</script>
+<script src="https://kit.fontawesome.com/c575892f5a.js" crossorigin="anonymous"></script>
+
 </html>
+
