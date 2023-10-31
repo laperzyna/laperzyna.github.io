@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/portfolio.css">
+    <link rel="shortcut icon" href="./imgs/LOGO 2.png" type="image/x-icon">
+    <title>PIECE 2</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="name"><a href="./index.html">LIDIA PERZYNA</a></div>
+        <div class="nav-links">
+            <a href="../index.html" class="nav-link">HOME</a>
+            <a href="../about.html" class="nav-link">ABOUT ME</a>
+            <a href="../portfolio.html" class="nav-link">DESIGN PORTFOLIO</a>
+            <a href="../contact.html" class="nav-link">CONTACT ME</a>
+        </div>
+    </nav>
+    <main class="content">
+        <div class="work-page-content">
+            <h2>ICONS OF WOMEN IN DESIGN</h2>
+            <p>In celebration of <b>Women’s History Month</b>, I chose to focus on a truly inspiring woman in Design:
+                <b>Melissa
+                    Buchanan</b>. I was captivated by her distinct, whimsical illustrations and vibrant characters she
+                often
+                brought to life. Through this admiration I was driven to the inception of "<b>Ms. Fancy Junk,</b>" a
+                character
+                inspired directly by Buchanan's own descriptive terms for her artistry.
+            </p>
+        </div>
+        <img src="../imgs/fancyJunkC.jpg" id="fancyJunk" />
+    </main>
+    <div class="go">
+        <div class="back">
+            <i class="fa-solid fa-arrow-left"></i>
+            <a href="./pieceOne.html">ARCHITECTURAL ABYSS</a>
+        </div>
+        <div class="next">
+            <a href="./pieceThree.html">VISUAL UNSEEN ENVIRONMENTAL IMPACTS</a>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/lidia-perzyna-157a47224/" class="fa-brands fa-linkedin"></a></li>
+            <li><a href="https://github.com/laperzyna" class="fa-brands fa-github"></a></li>
+            <li><a href="mailto: laperzyna@gmail.com" class="fa-sharp fa-solid fa-envelope"></a></li>
+        </ul>
+    </footer>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var elementsToAnimate = document.querySelectorAll(".work-page-content h2, .work-page-content p, .content img");
+
+        elementsToAnimate.forEach(function (element) {
+            element.style.opacity = "1";
+            element.style.transform = "translateY(0)";
+        });
+    });
+</script>
+<script src="https://kit.fontawesome.com/c575892f5a.js" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/portfolio.css">
+    <link rel="shortcut icon" href="./imgs/LOGO 2.png" type="image/x-icon">
+    <title>PIECE 1</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="name"><a href="./index.html">LIDIA PERZYNA</a></div>
+        <div class="nav-links">
+            <a href="../index.html" class="nav-link">HOME</a>
+            <a href="../about.html" class="nav-link">ABOUT ME</a>
+            <a href="../portfolio.html" class="nav-link">DESIGN PORTFOLIO</a>
+            <a href="../contact.html" class="nav-link">CONTACT ME</a>
+        </div>
+    </nav>
+    <main class="content">
+        <div class="work-page-content">
+            <h2>ARCHITECTURAL ABYSS</h2>
+            <p>This piece was created as part of a project for a Design Fundamentals class. The goal of this project was
+                to become familiar with <b>Adobe Illustrator</b> and create a successful reflected design using one square. The
+                square is formed from different photos of architecture and reflected multiple times to create a pattern.
+                The entire piece was also only allowed three hues.
+            </p>
+        </div>
+        <img src="../imgs/ArchInception.jpg" id="archAbyss" />
+    </main>
+    <div class="go">
+        <div class="back">
+            <!-- need to do back -->
+            <i class="fa-solid fa-arrow-left"></i>
+            <a href="./pieceOne.html">ARCHITECTURAL ABYSS</a>
+        </div>
+        <div class="next">
+            <a href="./pieceTwo.html">ICONS OF WOMEN IN DESIGN</a>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/lidia-perzyna-157a47224/" class="fa-brands fa-linkedin"></a></li>
+            <li><a href="https://github.com/laperzyna" class="fa-brands fa-github"></a></li>
+            <li><a href="mailto: laperzyna@gmail.com" class="fa-sharp fa-solid fa-envelope"></a></li>
+        </ul>
+    </footer>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var elementsToAnimate = document.querySelectorAll(".work-page-content h2, .work-page-content p, .content img");
+
+        elementsToAnimate.forEach(function (element) {
+            element.style.opacity = "1";
+            element.style.transform = "translateY(0)";
+        });
+    });
+</script>
+<script src="https://kit.fontawesome.com/c575892f5a.js" crossorigin="anonymous"></script>
+
+</html>

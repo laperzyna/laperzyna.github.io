@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/portfolio.css">
+    <link rel="shortcut icon" href="./imgs/LOGO 2.png" type="image/x-icon">
+    <title>PIECE 3</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="name"><a href="./index.html">LIDIA PERZYNA</a></div>
+        <div class="nav-links">
+            <a href="../index.html" class="nav-link">HOME</a>
+            <a href="../about.html" class="nav-link">ABOUT ME</a>
+            <a href="../portfolio.html" class="nav-link">DESIGN PORTFOLIO</a>
+            <a href="../contact.html" class="nav-link">CONTACT ME</a>
+        </div>
+    </nav>
+    <main class="content">
+        <div class="work-page-content">
+            <h2>VISUAL UNSEEN ENVIRONMENTAL IMPACTS</h2>
+            <p>Driven by a deep-rooted passion for marine life and the pressing challenge they face due to
+                <b>microplastics,</b> this design topic serves as my call for awareness.
+            </p>
+            <p>This piece aims to guide the viewer on a narrative journey: starting with the text that underscores
+                the
+                issue, transitioning to the careless disposal of trash from both cargo ships, and culminating in the
+                imagery of turtles interacting with the plastic remnants. A particular challenge I faced was to
+                seamlessly meld two perspectives – the scene above and beneath the waves. Through many trials, I'm
+                proud
+                to have overcome this challenge.</p>
+            <p>
+                Integrating <b>typography</b> posed as a challenge for me in this piece, as it was my first time
+                integrating
+                typography. While I'm pleased with the current layout, I know there is much more to learn in the
+                world
+                of typography and am eager to improve to enhance this and future designs.
+            </p>
+        </div>
+        <img src="../imgs/enviorn.jpg" id="turtles" />
+    </main>
+    <div class="go">
+        <div class="back">
+            <i class="fa-solid fa-arrow-left"></i>
+            <a href="./pieceTwo.html">ICONS OF WOMEN IN DESIGN</a>
+        </div>
+        <div class="next">
+            <a href="./pieceFour.html">THE FEED</a>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/lidia-perzyna-157a47224/" class="fa-brands fa-linkedin"></a></li>
+            <li><a href="https://github.com/laperzyna" class="fa-brands fa-github"></a></li>
+            <li><a href="mailto: laperzyna@gmail.com" class="fa-sharp fa-solid fa-envelope"></a></li>
+        </ul>
+    </footer>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var elementsToAnimate = document.querySelectorAll(".work-page-content h2, .work-page-content p, .content img");
+
+        elementsToAnimate.forEach(function (element) {
+            element.style.opacity = "1";
+            element.style.transform = "translateY(0)";
+        });
+    });
+</script>
+<script src="https://kit.fontawesome.com/c575892f5a.js" crossorigin="anonymous"></script>
+
+</html>

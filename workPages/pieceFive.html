@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/portfolio.css">
+    <link rel="shortcut icon" href="./imgs/LOGO 2.png" type="image/x-icon">
+    <title>PIECE 5</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="name"><a href="./index.html">LIDIA PERZYNA</a></div>
+        <div class="nav-links">
+            <a href="../index.html" class="nav-link">HOME</a>
+            <a href="../about.html" class="nav-link">ABOUT ME</a>
+            <a href="../portfolio.html" class="nav-link">DESIGN PORTFOLIO</a>
+            <a href="../contact.html" class="nav-link">CONTACT ME</a>
+        </div>
+    </nav>
+    <main class="content">
+        <div class="work-page-content">
+            <h2>DOWN-WITH-THE-FITNESS</h2>
+            <p><b>Down-With-The-Fitness</b> is an application created to get you moving! All users are able to view standard
+                workouts with different focuses on specific muscle groups and our signed-in users are able to create and
+                save custom created workouts. All users are able to start a workout and go through an exercise circuit
+                with a running timer.
+                <br>
+                <br>
+                <b>Github Link:</b>
+                <a href="https://github.com/laperzyna/down-with-the-fitness">https://github.com/laperzyna/down-with-the-fitness</a>
+            </p>
+        </div>
+        <img src="../imgs/down-wtf.png" id="down" />
+    </main>
+    <div class="go">
+        <div class="back">
+            <i class="fa-solid fa-arrow-left"></i>
+            <a href="./pieceFour.html">THE FEED</a>
+        </div>
+        <div class="next">
+            <a href="./pieceSix.html">WELCOME TO THE OVERTHINKERS CLUB</a>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/lidia-perzyna-157a47224/" class="fa-brands fa-linkedin"></a></li>
+            <li><a href="https://github.com/laperzyna" class="fa-brands fa-github"></a></li>
+            <li><a href="mailto: laperzyna@gmail.com" class="fa-sharp fa-solid fa-envelope"></a></li>
+        </ul>
+    </footer>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var elementsToAnimate = document.querySelectorAll(".work-page-content h2, .work-page-content p, .content img");
+
+        elementsToAnimate.forEach(function (element) {
+            element.style.opacity = "1";
+            element.style.transform = "translateY(0)";
+        });
+    });
+</script>
+<script src="https://kit.fontawesome.com/c575892f5a.js" crossorigin="anonymous"></script>
+
+</html>

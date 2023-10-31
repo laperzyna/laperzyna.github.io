@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/portfolio.css">
+    <link rel="shortcut icon" href="./imgs/LOGO 2.png" type="image/x-icon">
+    <title>PIECE 4</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="name"><a href="./index.html">LIDIA PERZYNA</a></div>
+        <div class="nav-links">
+            <a href="../index.html" class="nav-link">HOME</a>
+            <a href="../about.html" class="nav-link">ABOUT ME</a>
+            <a href="../portfolio.html" class="nav-link">DESIGN PORTFOLIO</a>
+            <a href="../contact.html" class="nav-link">CONTACT ME</a>
+        </div>
+    </nav>
+    <main class="content">
+        <div class="work-page-content">
+            <h2>THE FEED</h2>
+            <p>Welcome to <b>THE FEED</b>! This project was completed as part of a Visual Communication 2 course. The premise
+                of this project is to collect “your feed,” or online activity, and create a social media type
+                application that shows “your feed.“ I designed this application is a way that shows the computer as a
+                person that is constantly downloading your feed. It is meant to invoke a sense of slight fear and a
+                feeling of being overwhelmed by all of your collected data. 
+                <br>
+                <br>
+                <b>Github Link:</b>
+            <a href="https://laperzyna.github.io/thefeed/">https://laperzyna.github.io/thefeed/</a>
+            </p>
+        </div>
+        <img src="../imgs/theFEEED.jpg" id="feed" />
+    </main>
+    <div class="go">
+        <div class="back">
+            <i class="fa-solid fa-arrow-left"></i>
+            <a href="./pieceThree.html">VISUAL UNSEEN ENVIRONMENTAL IMPACTS</a>
+        </div>
+        <div class="next">
+            <a href="./pieceFive.html">DOWN-WITH-THE-FITNESS</a>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/lidia-perzyna-157a47224/" class="fa-brands fa-linkedin"></a></li>
+            <li><a href="https://github.com/laperzyna" class="fa-brands fa-github"></a></li>
+            <li><a href="mailto: laperzyna@gmail.com" class="fa-sharp fa-solid fa-envelope"></a></li>
+        </ul>
+    </footer>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var elementsToAnimate = document.querySelectorAll(".work-page-content h2, .work-page-content p, .content img");
+
+        elementsToAnimate.forEach(function (element) {
+            element.style.opacity = "1";
+            element.style.transform = "translateY(0)";
+        });
+    });
+</script>
+<script src="https://kit.fontawesome.com/c575892f5a.js" crossorigin="anonymous"></script>
+
+</html>
